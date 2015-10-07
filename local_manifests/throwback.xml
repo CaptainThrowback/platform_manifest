@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="exfat"
+           fetch="https://github.com/dorimanx" />
+  <remove-project name="craigacgomez/device_htc_flounder-kernel" />
+  <project name="kernel/tegra" path="kernel/tegra" revision="android-tegra-flounder-3.10-lollipop-mr1" />
+  <project name="exfat-nofuse" path="kernel/tegra/fs/exfat" remote="exfat" revision="master" />
+</manifest>
